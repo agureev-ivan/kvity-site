@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Флористика</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="flower-bg">
+        <div class="header-content">
+            <h1>Флористика – мистецтво квітів</h1>
+        </div>
+    </header>
+
+    <div class="cart-container">  <button class="cart-button fixed-cart-button">
+            <span id="cart-count">0</span> Кошик
+        </button>
+
+        <div id="cart-items" class="cart-items">
+            <h3>Ваш кошик</h3>
+            <div id="cart-item-list">
+                </div>
+            <button id="order-button" class="button">Оформити замовлення</button>
+        </div>
+    </div>
+
+    <main class="container">
+        <section class="intro section-bg">
+            <h2>Ласкаво просимо!</h2>
+            <p>Ми створюємо унікальні квіткові композиції, які приносять радість та натхнення.</p>
+        </section>
+
+        <section class="about section-bg">
+            <h2>Про нас</h2>
+            <p>Наша студія флористики - це місце, де квіти оживають у неймовірних композиціях. Ми любимо створювати букети, які розповідають історії та дарують емоції. Наші флористи - це справжні митці, які вкладають душу в кожну свою роботу.</p>
+        </section>
+
+        <h2 align="center">Наші роботи</h2>
+        <section class="gallery">
+            <div class="gallery-images">
+                <img src="img/flower1.jpg" alt="Квіткова композиція 1" class="zoomable">
+                <img src="img/flower2.jpg" alt="Квіткова композиція 2" class="zoomable">
+                <img src="img/flower3.jpg" alt="Квіткова композиція 3" class="zoomable">
+                <img src="img/flower4.jpg" alt="Квіткова композиція 4" class="zoomable">
+                <img src="img/flower5.jpg" alt="Квіткова композиція 5" class="zoomable">
+                <img src="img/flower6.jpg" alt="Квіткова композиція 6" class="zoomable">
+                <img src="img/flower7.jpg" alt="Квіткова композиція 7" class="zoomable">
+                <img src="img/flower8.jpg" alt="Квіткова композиція 8" class="zoomable">
+                <img src="img/flower9.jpg" alt="Квіткова композиція 9" class="zoomable">
+                <img src="img/flower10.jpg" alt="Квіткова композиція 10" class="zoomable">
+
+            </div>
+        </section>
+
+        <section class="products section-bg">
+            <h2>Картки товарів</h2>
+            <div class="product-grid">
+                </div>
+        </section>
+
+        <section class="reviews section-bg">
+        <h2>Відгуки</h2>
+            <div class="reviews-container">
+            </div>
+            <input type="text" id="review-name" placeholder="Ваше ім'я">  <textarea id="review-text" placeholder="Залиште свій відгук"></textarea>
+            <div>
+                <button id="add-review" class="button">Додати відгук</button>
+            </div>
+        </section>
+
+        <section class="contact section-bg">
+            <h2>Зв'яжіться з нами</h2>
+            <p><a href="tel:+380991234567" id="number">
+                +38 (099) 123-45-67</a></p>
+            <p>Email: info@floristics.com</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQJZQ58oqCDDMqQHLZem24ZpZwwZkgkFPu9Z5rbnmdjoq7nw/viewform?usp=dialog"
+                target="_blank" class="contact-us-button">Написати нам</a>
+        </section>
+    </main>
+
+    <footer class="flower-bg">
+        <p>&copy; 2025 Флористика. Всі права захищені.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <p>Дякуємо! Ваш запит відправлено. Ми зв'яжемося з вами найближчим часом.</p>
+            <button id="popup-close" class="button">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
