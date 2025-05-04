@@ -14,7 +14,6 @@
 * HTML5
 * CSS3
 * JavaScript
-* C# (ASP.NET)
 
 ## Опублікований продукт
 Готовий продукт опублікований на хостингу Firebase ([За посиланням](https://floristics-98262.web.app)).
